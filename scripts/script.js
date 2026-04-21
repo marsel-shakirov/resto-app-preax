@@ -4,5 +4,3 @@ const buttonClosePromotion = document.querySelector('.button-close');
 buttonClosePromotion.addEventListener('click', event => {
 	promotion.classList.add('disabled');
 });
-
-console.log('Hello world!');
